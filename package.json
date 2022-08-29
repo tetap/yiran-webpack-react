@@ -5,7 +5,7 @@
   "scripts": {
     "start": "craco start",
     "dev": "craco start",
-    "build": "set GENERATE_SOURCEMAP=false && craco build",
+    "build": "craco build",
     "test": "craco test",
     "lint:eslint": "eslint --fix --ext .js,.ts,.tsx ./src",
     "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,ts,json,tsx,css,less,scss,html,md}\"",
