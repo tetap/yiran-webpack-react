@@ -3,7 +3,7 @@ import { HttpStatusCode, HttpStatusMsg } from './httpStatusEnum'
 import type { BaseResponse } from '../models/BaseResponse'
 
 // 前缀链接
-export const BASEURL = REACT_APP_API_BASE_URL
+export const BASEURL = process.env.REACT_APP_API_BASE_URL
 
 const baseService = axios.create({
   baseURL: BASEURL,
